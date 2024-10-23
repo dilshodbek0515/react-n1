@@ -3,7 +3,6 @@ import Header from "./components/header/Header"
 import Links from "./components/links/Links"
 import Posts from "./components/posts/Posts"
 import Most from "./components/most/Most"
-import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <Links />
       <Posts />
       <Most />
-      <Contact />
       <Footer />
     </>
   );
