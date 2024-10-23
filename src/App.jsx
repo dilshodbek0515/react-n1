@@ -1,6 +1,5 @@
 import './App.css';
 import Header from "./components/header/Header"
-import Main from "./components/main/Main"
 import Links from "./components/links/Links"
 import Posts from "./components/posts/Posts"
 import Most from "./components/most/Most"
@@ -11,7 +10,6 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
       <Links />
       <Posts />
       <Most />

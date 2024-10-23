@@ -1,0 +1,45 @@
+.most {
+    max-width: 1440px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 60px 240px 90px 240px;
+}
+
+.most_content {
+    max-width: 940px;
+    height: 752px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.most_title {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #2E2E2E;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 20px;
+}
+
+.most_card_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 24px;
+
+}
+
+.most_card {
+    width: 296px;
+    height: 291px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}

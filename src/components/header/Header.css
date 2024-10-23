@@ -1,0 +1,135 @@
+.header {
+    max-width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 17px 250px;
+    background-image: url("../assets/images/bg_img.png");
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.heared_logo {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar_list {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.6000000238418579px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    font-size: 30px;
+    color: #FFFFFF;
+    display: none;
+}
+
+/* ------------------------------------------- */
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 110px 0px 157px 0px;
+}
+
+.main_list {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main_list2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFFA1;
+}
+
+.main_btn {
+    width: 167px;
+    height: 44px;
+    background: #DD783F;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+    border: transparent;
+}
+
+.main_btn:hover {
+    background: none;
+    border: 1px solid #DD783F;
+    color: #DD783F;
+    transition: .5s;
+}
+
+/* ------------------------------------------ */
+
+
+@media (max-width:1200px) {
+    .header {
+        padding: 17px 30px;
+    }
+}
+
+@media (max-width:760px) {
+    .nav {
+        display: none;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}
+
+@media (max-width:550px) {
+    .main {
+        gap: 20px;
+    }
+
+    .main_list {
+        font-size: 30px;
+        line-height: normal;
+    }
+}
+
+@media (max-width:380px) {
+    .main_list2 {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .main_list {
+        font-size: 24px;
+        line-height: normal;
+    }
+}
